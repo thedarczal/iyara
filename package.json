@@ -1,0 +1,18 @@
+{
+  "name": "plant-disease-checker",
+  "version": "2.0.0",
+  "description": "Simple Plant Disease Checker - siap Vercel + MongoDB Atlas",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node local.js",
+    "check-db": "node tools/check-db.js",
+    "make-uri": "node tools/make-uri.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
